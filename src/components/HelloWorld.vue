@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="purple" style="font-weight: bold;">{{ msg }}</h1>
     <h1>
       没起名的盒子猫
     </h1>
@@ -18,8 +18,9 @@ defineProps<{
 
     <h3><a href="https://space.bilibili.com/445016511">哔哩哔哩主页</a></h3>
     <h3><a href="https://live.bilibili.com/21512984">哔哩哔哩直播间</a></h3>
-    <h3><a href="about:blank" style="cursor: not-allowed;">GitHub</a></h3>
-    <h3><a href="about:blank" style="cursor: not-allowed;">Pixiv</a></h3>
+    <h3><a style="cursor: not-allowed; filter: grayscale(0.5)">GitHub</a></h3>
+    <h3><a style="cursor: not-allowed; filter: grayscale(0.5)">Pixiv</a></h3>
+    <h3><a href="mailto:i@awsl.link">Email</a></h3>
   </div>
 </template>
 
