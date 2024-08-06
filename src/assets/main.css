@@ -10,14 +10,14 @@
 a,
 .purple {
   text-decoration: none;
-  color: hsla(300, 80%, 50%, 1);
+  color: hsla(300, 80%, 40%, 1);
   transition: 0.4s;
   padding: 3px;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(300, 80%, 50%, 0.2);
+    background-color: hsla(300, 80%, 40%, 0.2);
   }
 }
 

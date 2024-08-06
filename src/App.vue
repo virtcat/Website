@@ -25,7 +25,7 @@ header {
   display: block;
   margin: 0 auto 2rem;
   border-radius: 50%;
-  border: 2px solid lightgray;
+  border: 2px solid gray;
 }
 
 @media (min-width: 1024px) {
