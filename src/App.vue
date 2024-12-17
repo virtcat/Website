@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Avatar" class="logo" src="./assets/avatar.png" width="125" height="125" />
+    <img alt="Avatar" class="logo" src="./assets/avatar.webp" width="125px" height="125px" />
 
     <div class="wrapper">
       <HelloWorld msg="Undefined_AI" />
