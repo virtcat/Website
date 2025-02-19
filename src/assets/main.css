@@ -7,30 +7,26 @@
   font-weight: normal;
 }
 
-a,
-.purple {
+a {
   text-decoration: none;
   color: var(--color-primary);
   transition: 0.4s;
   padding: 3px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: var(--color-primary);
+.heimu {
+  color: transparent;
+  background-color: var(--color-text);
+
+  &:hover {
     color: var(--color-background);
   }
 }
 
-@media (min-width: 1024px) {
+
+@media (min-width: 960px) {
   body {
     display: flex;
     place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
   }
 }
