@@ -29,18 +29,17 @@
   --color-primary: var(--vt-c-primary);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
+/* @media (prefers-color-scheme: dark) { */
+.dark {
+  --color-background: var(--vt-c-black);
 
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
+  --color-border: var(--vt-c-divider-dark-2);
+  --color-border-hover: var(--vt-c-divider-dark-1);
 
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-1);
+  --color-heading: var(--vt-c-text-dark-1);
+  --color-text: var(--vt-c-text-dark-1);
 
-    --color-primary: var(--vt-c-primary-dark);
-  }
+  --color-primary: var(--vt-c-primary-dark);
 }
 
 *,

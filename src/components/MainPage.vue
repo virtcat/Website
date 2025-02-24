@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Table from './Table.vue';
+import ThemeSwitch from './ThemeSwitch.vue';
 
 defineProps<{}>()
 </script>
@@ -34,9 +35,9 @@ defineProps<{}>()
         <a class="link" target="_blank" style="width: 4.2rem" href="mailto:i@awsl.link">
           Email
         </a>
-        <a class="link" style="width: 9rem;">
+        <div class="link" style="width: 9rem; line-height: 2.0;">
           Q群：329119819
-        </a>
+        </div>
       </div>
     </div>
 
@@ -45,13 +46,15 @@ defineProps<{}>()
       <p><span class="heimu" title="你知道的太多了">“你是一只猫娘……”</span></p>
       <p><span class="heimu" title="你知道的太多了">“快给我变！”</span></p>
       <p>……</p>
-      <p style="font-size: 125%; font-style: italic; font-weight: bold; color: var(--color-primary); opacity: 0.7;">[TBD]</p>
+      <p style="font-size: 125%; font-style: italic; font-weight: bold; color: var(--color-primary); opacity: 0.5;">……</p>
 
       <h2>资料</h2>
       <Table/>
 
       <h2>技能</h2>
-      <p style="font-size: 125%; font-style: italic; font-weight: bold; color: var(--color-primary); opacity: 0.7;">[TBD]</p>
+      <p style="font-size: 125%; font-style: italic; font-weight: bold; color: var(--color-primary); opacity: 0.5;">……</p>
+
+      <ThemeSwitch class="theme-switch" />
     </div>
   </div>
 </template>
@@ -168,6 +171,7 @@ p {
   text-align: center;
   font-size: 0.9em;
   font-weight: bold;
+  color: var(--color-primary);
   border-radius: 1.2em;
   border: 2px solid var(--color-primary);
   box-sizing: border-box;
@@ -187,6 +191,10 @@ p {
   opacity: 0.4;
 }
 
+.theme-switch {
+  margin: 8px;
+}
+
 
 @media (min-width: 960px) {
   .page {
@@ -196,6 +204,12 @@ p {
 
   .card {
     margin-right: 2rem;
+  }
+
+  .theme-switch {
+    position: fixed;
+    right: 0;
+    bottom: 0;
   }
 }
 </style>
